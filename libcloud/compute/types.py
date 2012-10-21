@@ -119,6 +119,7 @@ class Provider(object):
     KTUCLOUD = 47
     GRIDSPOT = 49
     RACKSPACE_FIRST_GEN = 51
+    ATTCLOUD = 52
 
     # Deprecated constants
     RACKSPACE_UK = 23

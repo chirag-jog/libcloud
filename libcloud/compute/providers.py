@@ -119,9 +119,12 @@ DRIVERS = {
     Provider.HPCLOUD_AZ2:
         ('libcloud.compute.drivers.hpcloud', 'HPCloudAZ2NodeDriver'),
     Provider.SAVVIS:
-        ('libcloud.compute.drivers.vcloud', 'SavvisNodeDriver'),libcloud/compute/drivers/vcloud.py
+        ('libcloud.compute.drivers.vcloud', 'SavvisNodeDriver'),
     Provider.KTUCLOUD:
-        ('libcloud.compute.drivers.ktucloud', 'KTUCloudNodeDriver')
+        ('libcloud.compute.drivers.ktucloud', 'KTUCloudNodeDriver'),
+    Provider.ATTCLOUD:
+        ('libcloud.compute.drivers.attsynaptic', 'ATT_Synaptic_NodeDriver')
+
 }
 
 
